@@ -4,7 +4,6 @@
 }
 
 body{
-    /* height: 100vh; */
     font-family: sans-serif;
     background-image: linear-gradient(to bottom right, #b53acee8, #00ff8e);    color: black;
 }
@@ -13,10 +12,10 @@ body{
     max-width: 500px;
     min-height: 580px;
     margin-inline: auto;
-    background-color: lightcoral;
+    background-color: #FFFAEC;
     margin-top: 20px;
-   border-radius: 10px;
-   padding: 10px;
+   border-radius: 16px;
+   padding: 12px;
    margin-bottom: 20px;
 }
 
@@ -42,7 +41,7 @@ flex-direction: column;
     outline: none;
     font-size: 18px;
     margin-bottom: 20px;
-    background-color: #00ff8e;
+    background-color: rgb(135, 214, 245);
 }
 
 .addbtn{
@@ -60,7 +59,7 @@ flex-direction: column;
 }
 
 .task-lists{
-    background-color: rgb(95, 123, 218);
+    background-color: #578E7E;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -73,21 +72,22 @@ flex-direction: column;
 
 
 .task{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(76, 216, 118);
+    background-color: 
+    #F5ECD5;
     padding: 16px;
      border-radius: 8px;
-     font-size: 18px;
-     margin-block: 14px;
+     font-size: 16px;
+     margin: 10px;
 }
 
 .edit {
-    padding: 6px 10px;
-    font-size: 18px;
-    border-radius: 8px;
+    padding: 4px 6px;
+    font-size: 14px;
+    border-radius: 4px;
     border: none;
     cursor: pointer;
     user-select: none; 
@@ -95,9 +95,9 @@ flex-direction: column;
     background-color: yellow;
 }
 .delete {
-    padding: 6px 10px;
-    font-size: 18px;
-    border-radius: 8px;
+    padding: 4px 6px;
+    font-size: 14px;
+    border-radius: 4px;
     border: none;
     cursor: pointer;
     user-select: none; 
