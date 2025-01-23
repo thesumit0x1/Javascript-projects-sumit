@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    width: 100vw;
+   user-select: none;  
+}
+
+.container{
+    margin: 10px;
+   width: 70%;
+    margin-inline: auto;
+}
+
+.btn-containers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 16px;
+    font-size: 18px;
+    border: 2px solid ;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+h1{text-align: center;}
+
+
+.background-changer{
+    font-size: 70px;
+    margin-top: 60px;
+}
+
+
+.white{
+    background-color: white;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.Fusion{
+    background-color: violet;
+}
+
+.Blue{
+    background-color: Blue;
+}
+
+.Green{
+    background-color: green;
+}
+
+
+@media (max-width:515px) {
+   
+    .background-changer{
+     font-size: 30px;
+    }
+    
+}

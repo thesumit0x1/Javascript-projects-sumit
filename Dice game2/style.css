@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 243, 136);
+    font-family: sans-serif;
+}
+
+main{
+   width: 100vw; 
+   height: 100vh;
+   overflow: hidden;
+}
+
+.dice-container{
+    width: 450px;
+    height: 80vh;
+    margin-block:20px ;
+    padding: 32px;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin-inline: auto;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.dice{
+    width: 150px;
+    background-color: brown;
+    border-radius: 28px;
+}
+
+h1{
+    text-align: center;
+}
+
+.players{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 40px;
+    padding-inline: 30px;
+}
+
+p{
+    font-size:28px ;
+}
+
+.btn-contaner{
+margin-block: 46px;
+display: flex;
+}
+
+.btn{
+    margin-inline: auto;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(192, 132, 248);
+    cursor: pointer;
+}
+
+
+
+.btn:hover{
+    background-color: rgb(109, 109, 206);
+}
+
+.dice:hover{
+    animation: rotateDice 0.8s ease-in-out ;
+}
+
+@keyframes rotateDice {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    100%{
+        transform: rotate(0deg); 
+    }
+}

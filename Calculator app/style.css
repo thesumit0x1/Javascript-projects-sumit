@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: lightblue;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, #2196f391, #d8ff00);
+}
+.container{
+    max-width:400px;
+    margin-inline: auto;
+    border: 1px solid ;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: rgb(192, 145, 236);
+    background-image: linear-gradient(to bottom right, #cc4fe6e8, #00ffff);
+}
+
+h1{
+    text-align: center;
+    margin-block: 20px;
+    font-weight: 600;
+}
+
+.input-field{
+    display: flex;
+}
+
+
+.input-tag{
+   width: 100%;
+    height:36px;
+    padding: 8px;
+    border: 0.5px solid black;
+    outline: none;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: 540;
+     text-align: end;
+     margin-bottom: 20px;
+}
+
+.btn-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    'ac del forword-slash asterics'
+    'seven eight nine minus'
+    'six five four plus'
+    'three two one point'
+    'one-zero two-zero equal equal';
+    gap: 14px;
+    font-family: sans-serif;
+
+}
+
+.equal{
+    grid-area: equal;
+}
+
+button{
+    padding:10px;
+   font-size: 24px;
+   cursor: pointer;
+   border: 0.5px solid;
+   border-radius: 5px;
+   user-select: none;
+}
+
+
+

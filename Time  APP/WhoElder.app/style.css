@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:600px ;
+    margin-inline: auto;
+    padding: 10px;
+}
+
+.input-container{
+display: flex;
+flex-direction: column;
+margin-bottom:24px ;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputField{
+    padding: 12px;
+    margin-block: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:  #ddd;
+    outline: none;
+}
+
+
+label{
+    padding-top: 18px;
+    font-weight: 600;
+}
+
+button{
+    width: 30%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px ;
+    background-color: rgb(54, 178, 235);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+
+p{
+    padding-block: 10px;
+}

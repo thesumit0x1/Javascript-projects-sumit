@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js" defer></script>
+</head>
+<body style="font-family: sans-serif;">
+    <main>
+        <div class="container">
+       <div class="input-container">
+           <h3>Who is elder? either Person1 or person2</h3>
+     <form>
+        <label for="inputField">person1:</label> 
+        <input class="person1" type='text' id="inputField" placeholder="DD/MM/YYYY HH:MM">  
+        <label for="inputField">person2:</label>
+        <input class="person2" type="text" id="inputField" placeholder="DD/MM/YYYY HH:MM">  
+        <label for="inputField">Result:</label>
+        <input class="result" type="text" id="inputField" placeholder="Result"  disabled>  
+        <p><b>Date:</b><span class="date"></span></p>
+        <p><b>Month:</b><span class="month"></span></p>
+        <p><b>Year:</b><span class="Year"></span></p>
+        <p><b>Time:</b><span class="time"></span></p>
+        <button>Compare <i class="fa-solid fa-arrow-right"></i></button>
+     </form>
+    </main>
+</body>
+</html>

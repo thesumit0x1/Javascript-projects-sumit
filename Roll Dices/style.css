@@ -1,0 +1,66 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 242, 231);
+}
+
+main{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.dice-container{
+    width: 500px;
+    margin-inline:auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-container{
+    width: 300px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.dice{
+    width: 100px;
+}
+
+.shakeDice{
+    animation: shake 0.3s ease-in ;
+}
+
+@keyframes shake {
+    0%{
+     transform: rotate(8deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+    }
+    100%{
+       transform: rotate(8deg);
+    }
+}
+
+
+.roll-btn{
+    padding: 8px 10px;
+    border-radius: 5px; 
+    font-size: 18px;
+    border: none;
+    background-color: cornflowerblue;
+   cursor: pointer;
+}
+
+.result{
+    font-family: sans-serif;
+    font-weight: 500;
+}
